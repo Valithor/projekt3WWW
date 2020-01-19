@@ -1,0 +1,137 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    font-family: 'Fira Sans', Arial, sans-serif;
+    font-size: 15px;
+    background-color: #f1b0b7;
+    min-height: 100vh;
+    overflow: scroll;
+}
+.jumbotron{
+    margin-top: 3%;
+    color: #0a2e09;
+    background-color: #a71d2a;
+}
+
+#canvas{
+    width: 90%;
+    border: 2px #0a2e09 solid;
+    margin: 5%;
+}
+[type="file"] {
+    height: 0;
+    width: 0;
+}
+
+[type="file"] + label {
+    background: #f5dfb3;
+    border: #a71d2a 2px solid;
+    border-radius: 5px;
+    color: #0a2e09;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 1%;
+    padding: 1% 50px;
+}
+
+[type="file"]+label:hover{
+    background: #a71d2a;
+    color: white;
+}
+
+
+.head{
+    background-color: #a71d2a;
+    border: #0a2e09 2px solid;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+.data{
+    background-color: #68A357;
+    border: #0a2e09 2px solid;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d6d8d9;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background: #a71d2a;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+h3 {
+    font-size: 1em;
+    padding: 1%;
+}
+
+h4 {
+    font-size: 0.5em;
+}
+
+.button{
+    background: #f5dfb3;
+    border: #a71d2a 2px solid;
+    border-radius: 5px;
+    margin: 0 35%;
+    padding: 1% 5%;
+    color: #092f09;
+    font-family: 'Poppins', sans-serif;
+    font-size: inherit;
+    font-weight: 600;
+}
+.button:hover{
+    background: #a71d2a;
+    color: white;
+    cursor: pointer;
+}
+
+.form-check-input{
+    cursor: pointer;
+}
